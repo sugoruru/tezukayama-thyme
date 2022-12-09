@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.title{
+    text-align: center;
+    font-size: 6vw;
+    font-family: "メイリオ";
+    color:royalblue;
+    font-weight: 700;
+    -webkit-text-stroke: 1px #FFF;
+}
+.title:hover{
+    cursor: pointer;
+}
+.header > img{
+    position: absolute;
+    top:0;
+    width: 100vw;
+    height: 14vw;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.7;
+}
+.header{
+    width: 100vw;
+}
+.buttons{
+    width: 100vw;
+    text-align:center;
+}
+.body{
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    color:#605e5e;
+}
+.body > h2{
+    text-align: center;
+}
+.button{
+    display: inline-block;
+    background: #75a6fb;
+    color: #fff;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 15px auto;
+    transition: background 0.3s;
+}
+.button:hover{
+    cursor: pointer;
+    background:#3478ee;
+}
+.bodyBox{
+    width: 80vw;
+}
+.body > #slide{
+    width: 80vw;
+    margin: 25px auto;
+}
+#logo{
+    width: 60vw;
+    margin: 25px calc(10vw);
+}
+#teamsImage{
+    margin-top: 30px;
+    width: 30vw;
+}
+#teams > span{
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    color:#605e5e;
+    margin-top: 5vw;
+}
+#teams{
+    display: flex;
+}
+.subtitle{
+    font-size: 20px;
+    color: #fff;
+    background-color: #34a5c8;
+    padding: 10px 40px;
+}
+.footer{
+    width: 100vw;
+    height: 100px;
+    background: #fff;
+    border-top: 2px solid #000;
+    text-align: center;
+    background-color: #aaa;
+}
+.footer > div{
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    width: 70vw;
+    height: 100px;
+    text-align: center;
+}
+#coreValueProjectSlide{
+    margin-left: 10vw;
+    width: 60vw;
+}
+.box {
+    font-weight: bold;
+    background: #FFF;
+    border: solid 3px #6091d3;
+    border-radius: 10px;
+    padding: 20px 0;
+}
+.box p {
+    margin: 0; 
+    padding: 0;
+}

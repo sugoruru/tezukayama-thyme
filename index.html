@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="FLL大会のTezukayama-Thymeチームホームページです！活動内容とかが乗っています！">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./img/icon.png">
+    <script src="./jquery.js"></script>
+    <title>Tezukayama-Thyme</title>
+</head>
+
+<body>
+    <div class="header">
+        <img src="./img/header.png">
+        <h1 class="title" id="title">Tezukayama-Thyme</h1>
+    </div>
+    <div class="buttons">
+        <div class="button" id="HOMEButton">HOME</div>
+        <div class="button" id="ProjectButton">Project</div>
+        <div class="button" id="RobotButton">Robot</div>
+        <div class="button" id="coreValueButton">core value</div>
+    </div>
+    <div class="body HOME" id="HOME" style="display: none;">
+        <img src="./img/logo.png" alt="Tezukayama-Thyme" id="logo">
+        <span class="subtitle">チーム紹介</span>
+        <br>
+        <div id="teams">
+            <img src="./img/fll-logo.png" alt="Tezukayama-Thyme" id="teamsImage">
+            <span>Tezukayama Thymeは<br>中学1年生5人、<br>中学2年生3人の<br><u
+                    style="color: red;">計8人</u>で活動しています。<br>私たちは協力して上位を狙っていきます！</span>
+        </div>
+    </div>
+    <div class="body Project" id="Project" style="display: none;">
+        <h2>初めに</h2>
+        <div class="box">
+            私たちのイノベーションプロジェクトは<br>
+            ・<a href="https://www.ngk.co.jp">日本ガイシ株式会社様</a><br>
+            ・<a href="https://www.kyuden.co.jp/td_index">九州電力送配電株式会社様</a><br>
+            ・<a href="https://www.kansai-td.co.jp">関西電力送配電株式会社様</a><br>
+            ・<a href="https://sumitomoelectric.com/jp/">住友電工株式会社様</a><br>
+            ・<a href="https://www.hepco.co.jp">北海道電力株式会社様</a>との協力を得て<br>
+            様々な課題と解決策を話し合い考えました。
+        </div>
+        <h2>解決したい事柄(10月)</h2>
+        <div class="box">
+            私たちプロジェクト班は電気を『作る』と『使う』の間である<u style="color: #16a920;">『貯める』</u>ということに目をつけました。<br><br>
+            そこで5つの会社にお問い合わせを行って様々なことを聞きました。<br>
+        </div>
+        <h2>企業に提案＆実験(11月)</h2>
+        <div class="box">
+            企業へのお問い合わせを行った結果「NAS電池」や「レドックスフロー電池」など様々なことが分かり<br>
+            すごく興味が湧いてきました。<br><br>
+            なので私たちで<u style="color:#16a920">『レドックスフロー電池』</u>の実験をすることになりました。<br><br>
+            実験の内容としては色の変わる電池というもので、高校化学の知識と専門家の教えを活用しながらレドックスフロー電池のモデルを作り動かしました！<br><br>
+            うまくいくか心配でしたが、しっかりと色が変わり実験は大成功で<u style="color: #16a920;">電解液に電気を貯める</u>ことができました！<br><br>
+            実験の様子
+            <img src="./img/p1.png" alt="実験をしました！" width="300"><br><br>
+            NAS電池
+            <img src="./img/p2.png" alt="NAS電池という電池の存在を知りました！" width="300">
+        </div>
+        <h2>プレゼンテーションの練習(12月)</h2>
+        <div class="box">
+            すべてのことを終わり、これらをまとめるスライドを大会に向けて作成しました！<br><br>
+            このプロジェクト班で1日少なくとも3時間は話し合いどのようにしたら進めやすいか、聞き手が分かりやすいかなど<br><br>
+            様々なことを話し合いながらスライドを組み立てていき作成が終わったらしっかりと練習しました！<br><br>
+            たくさん練習しましたので上位に行ければ良いなと思います！
+        </div>
+    </div>
+    <div class="body Robot" id="Robot" style="display: none;">
+        <h2>ロボット</h2>
+        <div class="box">
+            <h3>core Robot</h3>
+            モーターを適切な位置に取り付け<br>
+            <u style="color: #16a920;">上に装備を乗せやすい</u>直方体型の形にしました。
+            <h3>アタッチメント</h3>
+            core Robotに取り付けることが容易なものを作成し、<br>
+            <u style="color: #16a920;">短時間で次のプロセスに移ることが可能</u>になりました。
+        </div>
+        <h2>プログラム</h2>
+        <div class="box">
+            <h3>正確性</h3>
+            Tezukayama-Thyme-Robot班は正確性を重点的に行いました。<br><br>
+            まず、進むロボットの長さがどのぐらいかを分かりやすくするために、<br>
+            <u style="color: #16a920;">回転数→cm</u>に変更できるものをタイヤの直径と回転数から作り出しました。<br><br>
+            それにより、比較的簡単に正確性を上げることに繋がりました！<br><br>
+            ほかにも、実行するプログラムを簡単に選べるように選択する所を自作しました。<br><br>
+            何時間もしっかりと練習したので良い結果を残していければと思います！
+        </div>
+    </div>
+    <div class="body coreValue" id="coreValue" style="display: none;">
+        <h2>Project</h2>
+        <div class="box">
+            私たちは8人のチームで、始めたばかりの頃はまだまだ意見の一致やまとまりが少なく、しっかりとまとめながら話をしようという事になり、<br>
+            話した内容をわかりやすく黒板に書き、データ化したり写真を取ったりしました
+        </div><br>
+        <div>
+            <img src="./img/coreValueProject1.jpg" id="coreValueProjectSlide" nowImg="1">
+        </div>
+        <h2>チーム紹介文<br>～チーム代表のコメント～</h2>
+        <span class="body">
+            <div class="box">
+                最初は、お互いの名前も知らずに同じ学年で話したりしていましたが、高2の先輩の助けもあって、今ではお互いに仲良く話せる仲になりました。<br><br>
+                イノベーションプロジェクトでは、9月から準備をし始めましたが、10月に入りかける直前まで、テーマも何も決まりませんでした。<br><br>
+                ロボットも、プレゼンが進まないのでなかなか取り組めず両者とも常に時間が足りませんでした。<br><br>
+                10月は中間テストや、中2は学年旅行があったので、ほぼ活動ができず、中2は学年旅行にもパソコンを持って行ってFLLの準備をやるほどでした。<br><br>
+                みんなで助け合ってここまで来たので、チームとして、素晴らしい大会となることを期待しています。
+            </div>
+        </span>
+    </div>
+    <br>
+    <div class="footer">
+        <div>
+            ©Tezukayama-Thyme
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
